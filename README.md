@@ -16,6 +16,8 @@ It is part of my ongoing JavaScript learning journey, where I focus on understan
 - Reset the input, selected unit, and result
 - Clean and responsive user interface
 
+My project link:  https://aledjan1.github.io/Temperature-Converter/
+
 ## 🛠️ Technologies Used
 
 - **HTML5** — Page structure
