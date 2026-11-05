@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <main class="converter">
+    <div class="converter__icon">🌡️</div>
+    <h1>Temperature Converter</h1>
+    <p class="subtitle">Convert temperatures quickly and easily</p>
+
+    <label for="temperature">Enter temperature</label>
+    <input
+      type="number"
+      id="temperature"
+      placeholder="e.g. 25"
+      step="any"
+    >
+
+    <p class="section-title">Convert from</p>
+
+    <div class="options">
+      <label class="option">
+        <input type="radio" name="unit" value="celsius" checked>
+        Celsius (°C) → Fahrenheit (°F)
+      </label>
+
+      <label class="option">
+        <input type="radio" name="unit" value="fahrenheit">
+        Fahrenheit (°F) → Celsius (°C)
+      </label>
+    </div>
+
+    <button class="convert-btn" type="button">
+      Convert Temperature
+    </button>
+    <button class="reset-btn" type="button">Reset</button>
+
+    <section class="result">
+      <p>RESULT</p>
+      <h2 class="result__value">---</h2>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
